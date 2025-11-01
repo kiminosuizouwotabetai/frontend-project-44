@@ -19,5 +19,9 @@
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "eslint": "^9.39.0"
   }
 }
