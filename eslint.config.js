@@ -13,8 +13,8 @@ export default [
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'never'],
-      '@stylistic/comma-dangle': 'off',
       '@stylistic/eol-last': ['error', 'always'],
+      '@stylistic/no-trailing-spaces': ['error'],
     },
   },
 ]

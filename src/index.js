@@ -11,7 +11,7 @@ const runGame = (gameData) => {
   let correctAnswers = 0
 
   while (correctAnswers < ROUNDS) {
-    const { question, correctAnswer, } = gameData.generateRound()
+    const { question, correctAnswer } = gameData.generateRound()
 
     console.log(`Question: ${question}`)
     const userAnswer = readlineSync.question('Your answer: ')
@@ -19,7 +19,7 @@ const runGame = (gameData) => {
     if (userAnswer === String(correctAnswer)) {
       console.log('Correct!')
       correctAnswers += 1
-    } 
+    }
     else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`

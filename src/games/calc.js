@@ -3,7 +3,7 @@ const getRandomNumber = (min, max) => {
 }
 
 const getRandomOperator = () => {
-  const operators = ['+', '-', '*',]
+  const operators = ['+', '-', '*']
   return operators[Math.floor(Math.random() * operators.length)]
 }
 
