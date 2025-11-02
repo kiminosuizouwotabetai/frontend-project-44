@@ -2,7 +2,7 @@ const getRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-const isEven = (number) => number % 2 === 0
+const isEven = number => number % 2 === 0
 
 const generateRound = () => {
   const number = getRandomNumber(1, 100)
