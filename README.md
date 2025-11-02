@@ -2,6 +2,30 @@
 [![Actions Status](https://github.com/kiminosuizouwotabetai/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kiminosuizouwotabetai/frontend-project-44/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kiminosuizouwotabetai_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=kiminosuizouwotabetai_frontend-project-44)
 
+# Brain Games
+
+Набор консольных игр для тренировки математических навыков.
+
+## Требования
+
+- Node.js 18+
+- npm 9+
+
+## Установка
+
+\`\`\`bash
+npm install -g @hexlet/code
+\`\`\`
+
+## Запуск
+
+\`\`\`bash
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
+\`\`\`
 
 ## Demo
 
