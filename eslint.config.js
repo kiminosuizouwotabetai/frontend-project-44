@@ -15,6 +15,7 @@ export default [
       '@stylistic/semi': ['error', 'never'],
       '@stylistic/eol-last': ['error', 'always'],
       '@stylistic/no-trailing-spaces': ['error'],
+      '@stylistic/comma-dangle': ['error', 'always-multiline'],
     },
   },
 ]
