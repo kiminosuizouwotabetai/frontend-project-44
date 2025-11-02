@@ -19,7 +19,8 @@ const runGame = (gameData) => {
     if (userAnswer === String(correctAnswer)) {
       console.log('Correct!')
       correctAnswers += 1
-    } else {
+    } 
+    else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
       )
