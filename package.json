@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "[![Actions Status](https://github.com/kiminosuizouwotabetai/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/kiminosuizouwotabetai/frontend-project-44/actions)",
   "homepage": "https://github.com/kiminosuizouwotabetai/frontend-project-44#readme",
   "bugs": {
@@ -14,14 +14,14 @@
   "author": "",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
-  },
-  "devDependencies": {
-    "@stylistic/eslint-plugin": "^5.5.0",
-    "eslint": "^9.39.0"
   }
 }
